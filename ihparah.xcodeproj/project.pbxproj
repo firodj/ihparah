@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768BDC3428D1F3A7003DE41D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BDC3328D1F3A7003DE41D /* main.cpp */; };
+		768BDC6528D2CA30003DE41D /* hid_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BDC6328D2CA30003DE41D /* hid_writer.cpp */; };
+		768BDC6728D2D236003DE41D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768BDC6628D2D236003DE41D /* IOKit.framework */; };
+		768BDC6928D2D908003DE41D /* gamepad_device_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 768BDC6828D2D908003DE41D /* gamepad_device_mac.mm */; };
+		768BDC6D28D30BCC003DE41D /* crc32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BDC6B28D30BCC003DE41D /* crc32.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		768BDC2E28D1F3A7003DE41D /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		768BDC3028D1F3A7003DE41D /* ihparah */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ihparah; sourceTree = BUILT_PRODUCTS_DIR; };
+		768BDC3328D1F3A7003DE41D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		768BDC5B28D208F0003DE41D /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		768BDC5D28D20905003DE41D /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+		768BDC6328D2CA30003DE41D /* hid_writer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hid_writer.cpp; sourceTree = "<group>"; };
+		768BDC6428D2CA30003DE41D /* hid_writer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hid_writer.hpp; sourceTree = "<group>"; };
+		768BDC6628D2D236003DE41D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		768BDC6828D2D908003DE41D /* gamepad_device_mac.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = gamepad_device_mac.mm; sourceTree = "<group>"; };
+		768BDC6A28D2D947003DE41D /* gamepad_device_mac.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gamepad_device_mac.hpp; sourceTree = "<group>"; };
+		768BDC6B28D30BCC003DE41D /* crc32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = crc32.cpp; sourceTree = "<group>"; };
+		768BDC6C28D30BCC003DE41D /* crc32.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = crc32.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768BDC4A28D207C1003DE41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768BDC6728D2D236003DE41D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768BDC2728D1F3A6003DE41D = {
+			isa = PBXGroup;
+			children = (
+				768BDC3228D1F3A7003DE41D /* ihparah */,
+				768BDC3128D1F3A7003DE41D /* Products */,
+				768BDC3A28D1F640003DE41D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		768BDC3128D1F3A7003DE41D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768BDC3028D1F3A7003DE41D /* ihparah */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768BDC3228D1F3A7003DE41D /* ihparah */ = {
+			isa = PBXGroup;
+			children = (
+				768BDC6828D2D908003DE41D /* gamepad_device_mac.mm */,
+				768BDC3328D1F3A7003DE41D /* main.cpp */,
+				768BDC6328D2CA30003DE41D /* hid_writer.cpp */,
+				768BDC6428D2CA30003DE41D /* hid_writer.hpp */,
+				768BDC6A28D2D947003DE41D /* gamepad_device_mac.hpp */,
+				768BDC6B28D30BCC003DE41D /* crc32.cpp */,
+				768BDC6C28D30BCC003DE41D /* crc32.hpp */,
+			);
+			path = ihparah;
+			sourceTree = "<group>";
+		};
+		768BDC3A28D1F640003DE41D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				768BDC6628D2D236003DE41D /* IOKit.framework */,
+				768BDC5B28D208F0003DE41D /* SDL2.framework */,
+				768BDC5D28D20905003DE41D /* SDL2_image.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768BDC2F28D1F3A7003DE41D /* ihparah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768BDC3728D1F3A7003DE41D /* Build configuration list for PBXNativeTarget "ihparah" */;
+			buildPhases = (
+				768BDC2C28D1F3A7003DE41D /* Sources */,
+				768BDC4A28D207C1003DE41D /* Frameworks */,
+				768BDC2E28D1F3A7003DE41D /* Copy Files */,
+				768BDC4928D207BC003DE41D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ihparah;
+			productName = ihparah;
+			productReference = 768BDC3028D1F3A7003DE41D /* ihparah */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768BDC2828D1F3A6003DE41D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					768BDC2F28D1F3A7003DE41D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 768BDC2B28D1F3A6003DE41D /* Build configuration list for PBXProject "ihparah" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768BDC2728D1F3A6003DE41D;
+			productRefGroup = 768BDC3128D1F3A7003DE41D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768BDC2F28D1F3A7003DE41D /* ihparah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768BDC4928D207BC003DE41D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768BDC2C28D1F3A7003DE41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768BDC6928D2D908003DE41D /* gamepad_device_mac.mm in Sources */,
+				768BDC6528D2CA30003DE41D /* hid_writer.cpp in Sources */,
+				768BDC3428D1F3A7003DE41D /* main.cpp in Sources */,
+				768BDC6D28D30BCC003DE41D /* crc32.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		768BDC3528D1F3A7003DE41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/fadhil.mandaga/Workspaces/firodj/SDL/include,
+					/Users/fadhil.mandaga/Workspaces/firodj/SDL_image,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		768BDC3628D1F3A7003DE41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/fadhil.mandaga/Workspaces/firodj/SDL/include,
+					/Users/fadhil.mandaga/Workspaces/firodj/SDL_image,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		768BDC3828D1F3A7003DE41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 88M4HJF766;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.22/lib,
+					"$(PROJECT_DIR)/SDL2.framework/Versions/A",
+					"$(PROJECT_DIR)/SDL2_image.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768BDC3928D1F3A7003DE41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 88M4HJF766;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.22/lib,
+					"$(PROJECT_DIR)/SDL2.framework/Versions/A",
+					"$(PROJECT_DIR)/SDL2_image.framework/Versions/A",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768BDC2B28D1F3A6003DE41D /* Build configuration list for PBXProject "ihparah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768BDC3528D1F3A7003DE41D /* Debug */,
+				768BDC3628D1F3A7003DE41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768BDC3728D1F3A7003DE41D /* Build configuration list for PBXNativeTarget "ihparah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768BDC3828D1F3A7003DE41D /* Debug */,
+				768BDC3928D1F3A7003DE41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768BDC2828D1F3A6003DE41D /* Project object */;
+}
